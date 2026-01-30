@@ -37,3 +37,8 @@ pip install --no-cache-dir --upgrade -r requirements.txt
 # uvicorn 종료
 
 taskkill /im uvicorn.exe /f
+
+# 참고
+
+### 예시 코드
+`src/user`폴더는 sync, async 예시 코드용 폴더. 참고용으로만 사용. 지워도 됨.
