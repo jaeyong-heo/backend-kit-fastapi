@@ -2,7 +2,7 @@ from datetime import datetime
 
 from pydantic import BaseModel
 
-from user.models import User
+from sample_code.models import User
 
 
 class UserResponse(BaseModel):

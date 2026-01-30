@@ -1,10 +1,10 @@
 from fastapi import APIRouter, HTTPException, status
 from fastapi.params import Depends
 
-from user.async_repository import UserRepository
-from user.models import User
-from user.request import UserAuthRequest
-from user.response import UserResponse, UserTokenResponse
+from sample_code.async_repository import UserRepository
+from sample_code.models import User
+from sample_code.request import UserAuthRequest
+from sample_code.response import UserResponse, UserTokenResponse
 
 router = APIRouter(prefix="/users", tags=["Users"])
 

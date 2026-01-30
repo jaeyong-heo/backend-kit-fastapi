@@ -4,10 +4,10 @@ from starlette import status
 from shared.authentication.dependency import authenticate
 from shared.authentication.jwt import JWTService
 from shared.authentication.password import PasswordService
-from user.models import User
-from user.request import UserAuthRequest
-from user.response import UserResponse, UserTokenResponse
-from user.sync_repository import UserRepository
+from sample_code.models import User
+from sample_code.request import UserAuthRequest
+from sample_code.response import UserResponse, UserTokenResponse
+from sample_code.sync_repository import UserRepository
 
 router = APIRouter(prefix="/users", tags=["Users"])
 

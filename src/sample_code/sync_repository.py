@@ -3,7 +3,7 @@ from sqlalchemy import exists
 from sqlalchemy.orm import Session
 
 from shared.database.connection import get_db
-from user.models import User
+from sample_code.models import User
 
 
 class UserRepository:
