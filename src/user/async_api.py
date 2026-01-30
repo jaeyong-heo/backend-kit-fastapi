@@ -1,9 +1,6 @@
 from fastapi import APIRouter, HTTPException, status
 from fastapi.params import Depends
 
-from shared.authentication.dependency import authenticate
-from shared.authentication.jwt import JWTService
-from shared.authentication.password import PasswordService
 from user.async_repository import UserRepository
 from user.models import User
 from user.request import UserAuthRequest

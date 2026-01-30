@@ -3,7 +3,7 @@ from datetime import datetime
 from sqlalchemy import Column, Integer, String
 from sqlalchemy.dialects.postgresql import TIMESTAMP
 
-from shared.database.orm import Base
+from shared.database import Base
 
 __all__ = [
     "User",
